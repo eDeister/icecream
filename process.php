@@ -37,8 +37,8 @@ include 'header.html';
         echo "<p>Number of scoops: $numScoops</p>";
         echo "<p>Cone selection: $cone</p>";
         echo "<p>Flavors: $flavorList</p>";
-        echo "<p>Subtotal: $subtotal</p>";
-        echo "<p>Total: $total</p>";
+        echo "<p>Subtotal: $". number_format($subtotal, 2) ."</p>";
+        echo "<p>Total: $". number_format($total, 2) ."</p>";
 
     ?>
 </div>
