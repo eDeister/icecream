@@ -14,7 +14,8 @@ $flavors = array('vanilla','chocolate','strawberry','caramel');
 $cones = array('sugar' => 'Sugar Cone','waffle' => 'Waffle Cone','cup' => 'Cup');
 
 //Write the header
-include 'header.html';
+$title = "Order Form";
+include 'header.php';
 ?>
 <body>
 <div class="container">
